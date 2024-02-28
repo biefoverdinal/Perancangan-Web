@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabel</title>
+</head>
+<body>
+   
+
+   <h2>Tabel Rowspan</h2>
+   <table border="1">
+      <tr>
+        <th>Nim</th>        
+        <th>Nama</th>        
+        <th>Mata kuliah</th>        
+        <th>Lab</th>        
+      </tr>
+
+      <tr>
+        <td rowspan="2">2022610001</td>
+        <td rowspan="2">Abdul Hadi</td>
+        <td>Peracangan Web</td>
+        <td>E2.2</td>
+      </tr>
+      <tr>
+        <td>Manajemen Proyek</td>
+        <td>E2.1</td>
+      </tr>
+
+      <tr>
+        <td rowspan="2">2022610002</td>
+        <td rowspan="2">Biefo Verdinal</td>
+        <td>Peracangan Web</td>
+        <td>E2.2</td>
+      </tr>
+      <tr>
+        <td>Interaksi Manusia dan Komputer</td>
+        <td>E2.3</td>
+      </tr>
+
+      <tr>
+        <td rowspan="2">2022610003</td>
+        <td rowspan="2">Kiffatul Namjmi</td>
+        <td>Peracangan Web</td>
+        <td>E2.1</td>
+      </tr>
+
+      <tr>
+        <td>Desain Grafis</td>
+        <td>E2.3</td>
+      </tr>
+    </table>
+    
+      
+    <h2>Tabel Colspan</h2>
+    <table border="1">
+      <tr>
+        <th colspan="2">Informasi Mahasiswa</th>      
+        <th colspan="2">Informasi Mata Kuliah</th>        
+      </tr>
+
+      <tr>
+        <th>Nim</th>        
+        <th>Nama</th>        
+        <th>Mata kuliah</th>        
+        <th>Lab</th>        
+      </tr>
+
+      <tr>
+        <td>2022610001</td>
+        <td>Abdul Hadi</td>
+        <td>Peracangan Web</td>
+        <td>E2.1</td>
+      </tr>
+
+      <tr>
+        <td>2022610002</td>
+        <td>Biefo Verdinal</td>
+        <td>Peracangan Web</td>
+        <td>E2.2</td>
+      </tr>
+
+      <tr>
+        <td>2022610003</td>
+        <td>Kiffatul Namjmi</td>
+        <td>Peracangan Web</td>
+        <td>E2.3</td>
+      </tr>
+    </table>
+    
+    <br>
+    <button onclick="goBack()">Back</button>
+    
+    <script>
+        function goBack() {
+            window.location.href = "index.html";
+        }
+    </script>
+</body>
+</html>
